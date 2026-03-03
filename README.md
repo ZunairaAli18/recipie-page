@@ -1,6 +1,8 @@
 
 # Tasty Recipes Page
 
+https://thedailybite.netlify.app/
+
 Welcome to the Tasty Recipes Page! This repository contains a collection of delicious recipes organized into different categories to help you find the perfect dish for any occasion.
 
 ## Features
