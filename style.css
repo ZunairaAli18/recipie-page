@@ -16,11 +16,15 @@ header{
     padding: 0 100px;
     background: #8CB08E;
     position: static;
+    position: fixed;      /* changed from static to fixed */
+    top: 0;               /* sticks to the top */
+    left: 0;
+    z-index: 1000;   
 }
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url('main.png');
+    background-image: url('/assets/main.png');
     background-position: center;
     background-size: cover;
 }

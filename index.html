@@ -14,15 +14,16 @@
         <div class="logo">Tasty Recipes</div>
         <div class="nav-bar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </header>
-    <div class="hero">
+
+    <div class="hero" id="home">
         <div class="content">
             <h4>Unleash your Amazing Passion</h4>
             <h1>Discover Taste Sensations</h1>
@@ -30,7 +31,8 @@
             <div class="button">Explore</div>
         </div>
     </div>
-    <section class="about">
+
+    <section class="about" id="about">
         <h2>About Us</h2>
         <div class="main">
             <div class="about-text">
@@ -43,15 +45,15 @@
                     goal is to empower you to explore your culinary creativity and make every meal a masterpiece. So
                     come on in, explore our diverse recipe collection, and let's embark on a delightful gastronomic
                     adventure together!</p>
-
             </div>
         </div>
     </section>
-    <div class="recipe">
+
+    <div class="recipe" id="recipes">
         <h2>Highlighted Recipes</h2>
         <div class="box">
             <div class="card">
-                <img src="r1.png" alt="">
+                <img src="/assets/r1.png" alt="">
                 <div class="content">
                     <h3>Recipe 1</h3>
                     <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
@@ -59,7 +61,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="r2.png" alt="">
+                <img src="/assets/r2.png" alt="">
                 <div class="content">
                     <h3>Recipe 2</h3>
                     <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
@@ -67,7 +69,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="r3.png" alt="">
+                <img src="/assets/r3.png" alt="">
                 <div class="content">
                     <h3>Recipe 3</h3>
                     <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
@@ -75,7 +77,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="r4.png" alt="">
+                <img src="/assets/r4.png" alt="">
                 <div class="content">
                     <h3>Recipe 4</h3>
                     <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
@@ -83,7 +85,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="r5.png" alt="">
+                <img src="/assets/r5.png" alt="">
                 <div class="content">
                     <h3>Recipe 5</h3>
                     <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
@@ -91,7 +93,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="r6 .png" alt="">
+                <img src="/assets/r6 .png" alt="">
                 <div class="content">
                     <h3>Recipe 6</h3>
                     <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
@@ -99,7 +101,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="r7.png" alt="">
+                <img src="/assets/r7.png" alt="">
                 <div class="content">
                     <h3>Recipe 7</h3>
                     <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
@@ -107,7 +109,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="r8.png" alt="">
+                <img src="/assets/r8.png" alt="">
                 <div class="content">
                     <h3>Recipe 8</h3>
                     <P>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</P>
@@ -116,11 +118,12 @@
             </div>
         </div>
     </div>
-    <div class="categories">
+
+    <div class="categories" id="categories">
         <h2>Categories</h2>
         <div class="box">
             <div class="ca-card">
-                <img src="desi.png" alt="">
+                <img src="/assets/desi.png" alt="">
                 <div class="content">
                     <h3>Desi Foods</h3>
                     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
@@ -128,7 +131,7 @@
                 </div>
             </div>
             <div class="ca-card">
-                <img src="Desserts.png" alt="">
+                <img src="/assets/Desserts.png" alt="">
                 <div class="content">
                     <h3>Desserts</h3>
                     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
@@ -136,7 +139,7 @@
                 </div>
             </div>
             <div class="ca-card">
-                <img src="healthyeats.png" alt="">
+                <img src="/assets/healthyeats.png" alt="">
                 <div class="content">
                     <h3>Healthy Eats</h3>
                     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
@@ -144,7 +147,7 @@
                 </div>
             </div>
             <div class="ca-card">
-                <img src="baking.png" alt="">
+                <img src="/assets/baking.png" alt="">
                 <div class="content">
                     <h3>Baking</h3>
                     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
@@ -153,21 +156,22 @@
             </div>
         </div>
     </div>
-   <section class="contact">
-    <div class="contact-form">
-        <h2>Contact Form</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
-            <label for="message">Message:</label>
-            <textarea name="message" id="message"  required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
 
-   </section>
-  
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
 </body>
 
 </html>
